@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node backend/dist/server",
+    "build": "sh ./build.sh",
     "dev": "concurrently \"cd frontend && yarn dev\" \"cd backend && yarn dev\""
   },
   "devDependencies": {
