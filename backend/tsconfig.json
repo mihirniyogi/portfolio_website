@@ -8,6 +8,7 @@
     "forceConsistentCasingInFileNames": true, // Enforce consistent file casing
     "skipLibCheck": true, // Skip type checking of declaration files
     "resolveJsonModule": true, // Enable importing JSON modules
+    "outDir": "./dist", // Output directory for compiled files
     "baseUrl": "./", // Base directory to resolve non-relative module names
     "paths": {
       "*": ["node_modules/*", "*"]
