@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES6",
+    "module": "ESNext", // Use ES modules
+    "moduleResolution": "node", // Use Node.js style module resolution
+    "esModuleInterop": true, // Enable compatibility with CommonJS modules
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file casing
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "resolveJsonModule": true, // Enable importing JSON modules
+    "baseUrl": "./", // Base directory to resolve non-relative module names
+    "paths": {
+      "*": ["node_modules/*", "*"]
+    }
+  },
+  "include": ["**/*.ts"], // Include TypeScript files in the compilation
+  "exclude": ["node_modules"] // Exclude node_modules from TypeScript compilation
+}
