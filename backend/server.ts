@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // handle http requests
 app.get("/api", (req: Request, res: Response) => {
-  res.json({ message: "Hello from the backend!" });
+  res.json({ message: "Hello from the backend!! I love coding" });
 });
 
 // serve static files

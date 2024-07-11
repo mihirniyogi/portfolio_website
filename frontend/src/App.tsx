@@ -4,7 +4,7 @@ import axios from "axios";
 
 function App() {
   const [message, setMessage] = useState<string>("");
-  
+
   useEffect(() => {
     axios
       .get("/api")
@@ -20,6 +20,7 @@ function App() {
     <>
       <div>
         <p>Hi, {message}</p>
+        <p>Hello again</p>
       </div>
     </>
   );
