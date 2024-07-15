@@ -5,9 +5,8 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "node ./dist/server",
     "build": "tsc",
-    "dev": "tsx watch server"
+    "dev": "tsx watch src/server"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

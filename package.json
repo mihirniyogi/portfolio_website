@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node backend/dist/server",
     "build": "sh ./build.sh",
+    "start": "node backend/dist/server",
     "dev": "concurrently \"cd frontend && yarn dev\" \"cd backend && yarn dev\""
   },
   "devDependencies": {
