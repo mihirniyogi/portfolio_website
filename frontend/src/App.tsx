@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("/test")
+      .get("/api/test")
       .then((res) => {
         setMessage(res.data.message);
       })
