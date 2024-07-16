@@ -1,28 +1,13 @@
-import { useState, useEffect } from "react";
-import "./App.css";
-import axios from "axios";
+import "./App.scss";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  const [message, setMessage] = useState<string>("");
-
-  useEffect(() => {
-    axios
-      .get("/test")
-      .then((res) => {
-        setMessage(res.data.message);
-      })
-      .catch((err) => {
-        console.error(err);
-      });
-  }, []);
-
   return (
-    <>
-      <div>
-        <p>Hi, {message}</p>
-        <p>Hello again</p>
-      </div>
-    </>
+    <div className="container">
+      <Navbar />
+      <Hero />
+    </div>
   );
 }
 

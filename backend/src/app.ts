@@ -13,7 +13,7 @@ app.use(express.json());
 
 /* --------- Routes --------- */
 
-app.use("/test", testRouter);
+app.use("/api/test", testRouter);
 
 /* --------- Static files --------- */
 

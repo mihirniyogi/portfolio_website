@@ -1,0 +1,24 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+p {
+  font-family: "Fira Code", sans-serif;
+  font-size: 2rem;
+  color: var(--faded-golden);
+  margin: 0;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
