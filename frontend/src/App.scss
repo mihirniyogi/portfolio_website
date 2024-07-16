@@ -1,0 +1,16 @@
+// applies to entire page
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--page-background);
+  color: #ffffff;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 1rem;
+}
