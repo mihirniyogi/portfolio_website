@@ -1,4 +1,4 @@
-import './Navbar.scss';
+import styles from './Navbar.module.scss';
 
 const navLinks = [
   {
@@ -21,7 +21,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className={styles['navbar']}>
       <ul>
         {navLinks.map((link) => (
           <li key={link.title}>
@@ -29,7 +29,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <a className="btn" href="">
+      <a className={styles.btn} href="">
         resume
       </a>
     </nav>

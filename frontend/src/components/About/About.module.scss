@@ -1,4 +1,4 @@
-.about-container {
+.container {
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
@@ -50,13 +50,13 @@
   }
 }
 
-.about-content {
+.content {
   // border: 1px solid yellowgreen;
   display: flex;
   flex-direction: row;
   margin-top: 2rem;
 
-  .about-text {
+  .text {
     width: 70%;
     // border: 1px solid yellowgreen;
 
@@ -76,12 +76,12 @@
     }
   }
 
-  .about-space {
+  .space {
     width: 5%;
     // border: 1px solid red;
   }
 
-  .about-image {
+  .image {
     display: flex;
     width: 25%;
     // border: 1px solid yellowgreen;
